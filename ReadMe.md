@@ -4,8 +4,6 @@ This is a simple project of a 3D card using HTML and CSS. The 3D effect is achie
 
 ## Demo
 
-You can see a live demo of the 3D card [here](#).
-
 ![Sailor Moon Card Demo](https://christinalorenzomontes.github.io/sailor-moon-card/)
 
 ## Features
