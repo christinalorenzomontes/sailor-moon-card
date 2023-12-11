@@ -2,9 +2,11 @@
 	--card-height: 300px;
 	--card-width: calc(var(--card-height) / 1.5);
 }
+
 * {
 	box-sizing: border-box;
 }
+
 body {
 	width: 100vw;
 	height: 100vh;
@@ -14,6 +16,7 @@ body {
 	align-items: center;
 	background-image: linear-gradient(315deg, #d92c2c 0%, #191714 74%);
 }
+
 .card {
 	width: var(--card-width);
 	height: var(--card-height);
@@ -56,6 +59,7 @@ body {
 	position: absolute;
 	left: 0;
 }
+
 .wrapper::before {
 	top: 0;
 	height: 100%;
@@ -66,6 +70,7 @@ body {
 		rgba(12, 13, 19) 97%
 	);
 }
+
 .wrapper::after {
 	bottom: 0;
 	opacity: 1;
@@ -85,13 +90,6 @@ body {
 .card:hover .wrapper::after {
 	height: 120px;
 }
-/* .title {
-	width: 100%;
-	transition: transform 0.5s;
-}
-.card:hover .title {
-	transform: translate3d(0%, -50px, 100px);
-} */
 
 .character {
 	width: 100%;
